@@ -32,7 +32,8 @@ body,
 
 .colors-wrap {
   height: 100%;
-  width: 300px;
+  width: 40%;
+  height: auto;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
   ul {
@@ -73,8 +74,20 @@ nav {
   width: 30%;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
+li {
+  padding: 1%;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
 form {
-  margin-top: 60px;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
 
@@ -86,6 +99,15 @@ form {
     margin-bottom: 16px;
   }
 
+  p {
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orchid;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
   label {
     display: flex;
     justify-content: space-between;
@@ -95,8 +117,8 @@ form {
   input {
     margin-right: 6rem;
     height: 1.2rem;
-    background-color: skyblue;
-    color: pink;
+    background-color: aqua;
+    color: salmon;
     font-weight: bold;
     font-size: 1.4rem;
     margin: 1px;
