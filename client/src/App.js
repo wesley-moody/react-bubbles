@@ -16,9 +16,9 @@ function App() {
     <Router>
       <div className='App'>
         <nav>
-          <Link to='/login'>Login ||</Link>
-          <Link to='/protected'> Premium Content ||</Link>
-          <Link to='/login' onClick={handleLogout}>
+          <Link to='/login'>Login </Link>
+          <Link to='/protected'> See My Bubbles </Link>
+          <Link to='/login' onClick= {handleLogout}>
             {" "}
             Logout
           </Link>

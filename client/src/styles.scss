@@ -60,6 +60,19 @@ body,
   margin-right: 36px;
 }
 
+a {
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orchid;
+  background-color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav {
+  width: 30%;
+}
+
 form {
   margin-top: 60px;
   display: flex;
@@ -80,7 +93,13 @@ form {
   }
 
   input {
-    width: 100px;
+    margin-right: 6rem;
+    height: 1.2rem;
+    background-color: skyblue;
+    color: pink;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 1px;
   }
 }
 
@@ -89,9 +108,9 @@ form {
   justify-content: space-between;
   padding: 0 36px 0 41px;
 
-  button {
-    border: none;
-    background-color: black;
+  button.loginButton {
+    border: 1px dotted skyblue;
+    background-color: chocolate;
     color: white;
     padding: 3px 8px;
     margin-top: 16px;
